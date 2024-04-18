@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="output">
+        <p class="calculation">0</p>
+        <p class="result">0</p>
+    </div>
+        
+    <div>
+        <button class="number" onclick="number(1)">1</button>
+        <button class="number" onclick="number(2)">2</button>
+        <button class="number"  onclick="number(3)">3</button>
+        <button class="operator" onclick="operator(' + ')">+</button>
+    </div>
+    
+    <div>
+        <button class="number" onclick="number(4)">4</button>
+        <button class="number" onclick="number(5)">5</button>
+        <button class="number" onclick="number(6)">6</button>
+        <button class="operator" onclick="operator(' - ')">-</button>
+    </div>
+    
+    <div>
+        <button class="number" onclick="number(7)">7</button>
+        <button class="number" onclick="number(8)">8</button>
+        <button class="number" onclick="number(9)">9</button>
+        <button class="operator" onclick="operator(' * ')">x</button>
+    </div>
+    
+    <div>
+        <button class="number" onclick="number(0)">0</button>
+        <button class="number" onclick="operator('.')">.</button>
+        <button class="number" onclick="equal()">=</button>
+        <button class="operator" onclick="operator(' / ')">/</button>
+    </div>
+    
+    <div >
+        <button class="clear" onclick="remove()">Clear</button>
+    </div>
+
+</body>
+</html>

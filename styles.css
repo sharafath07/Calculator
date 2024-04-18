@@ -1,0 +1,42 @@
+body{
+    color: white;
+    background-color: black;
+    text-align: center;
+    display: grid;
+    align-items: center;
+}
+.calculation{
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size: 400%;
+}
+.result{
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size: 600%;
+}
+button{
+    margin-right: 10px;
+    color: white;
+    height: 100px;
+    width: 100px;
+    font-size: 300%;
+    border: none;
+    border-radius: 100%;
+}
+.number{
+    background-color: rgb(64, 64, 64);
+}
+.operator{
+    background-color: rgb(255, 174, 0);
+}
+.clear{
+    background-color: rgb(255, 174, 0);
+    font-size: 150%;
+}
+div{
+    margin: 10px 0px;
+}
+.output{
+    height: 200px;
+}
