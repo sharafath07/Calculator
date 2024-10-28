@@ -26,7 +26,7 @@ function operator(value) {
 }
 
 function equal() { 
-    result = eval(calculation);  /*eval() converts the calculation into actual math*/
+    result = eval(calculation);
     document.querySelector('.result').innerHTML = `${result}`
     localStorage.setItem('calculation',JSON.stringify(calculation))
 }
@@ -36,6 +36,5 @@ function remove() {
     result = '0'
     arrayValue = []
     localStorage.removeItem('calculation')
-    // document.querySelector('.calculation').innerHTML = `${calculation}`
     document.querySelector('.result').innerHTML = `${result}`
 }
