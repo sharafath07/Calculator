@@ -11,9 +11,7 @@ function number(value) {
         calculation = '';
         calculation += num;
     }
-    document.querySelector('.calculation').innerHTML = `${calculation}`
-
-    equal()
+    document.querySelector('.result').innerHTML = `${calculation}`
 }
 
 function operator(value) {
@@ -24,7 +22,7 @@ function operator(value) {
     }else{
         return 0;
     }
-    document.querySelector('.calculation').innerHTML = `${calculation}`
+    document.querySelector('.result').innerHTML = `${calculation}`
 }
 
 function equal() { 
@@ -38,26 +36,6 @@ function remove() {
     result = '0'
     arrayValue = []
     localStorage.removeItem('calculation')
-    document.querySelector('.calculation').innerHTML = `${calculation}`
+    // document.querySelector('.calculation').innerHTML = `${calculation}`
     document.querySelector('.result').innerHTML = `${result}`
-}
-
-function del(){
-    let space = ''
-    let num = arrayValue.length - 1
-    arrayValue.splice(num, 1)
-
-    if (num <= 0) {
-        space = '0' 
-    } else {
-        for (let i = 0; i < arrayValue.length; i++) {
-            const element = arrayValue[i];
-            space += element
-            
-        }
-    }
-
-    calculation = space
-
-    document.querySelector('.calculation').innerHTML = `${calculation}`
 }
