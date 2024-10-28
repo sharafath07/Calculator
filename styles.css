@@ -5,60 +5,6 @@ body{
     display: grid;
     align-items: center;
 }
-/*
-p{
-    display: inline-block;
-    text-align: center;
-}
-.calculation{
-    margin-bottom: 0;
-    margin-top: 5px;
-    font-size: 400%;
-}
-.result{
-    margin-bottom: 0;
-    margin-top: 5px;
-    font-size: 600%;
-    text-align: left;
-}
-button{
-    margin-right: 10px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(64, 64, 64);
-    height: 100px;
-    width: 100px;
-    font-size: 400%;
-    border: none;
-    border-radius: 100%;
-}
-.number{
-    background-color: rgb(64, 64, 64);
-    
-}
-.operator{
-    background-color: rgb(255, 174, 0);
-}
-.clear{
-    background-color: rgb(255, 0, 0);
-    font-size: 200%;
-}
-.del{
-    font-size: 200%;
-    
-}
-div{
-    display: flex;
-    flex-direction: row;
-    margin: 10px 0px;
-    justify-content: center;
-}
-.output{
-    display: grid;
-    grid-template-columns: 300px 100px;
-    column-gap: 10px;
-    justify-content: center;
-    align-items: center;
-} */
 
 .calculator {
     border: 2px solid rgb(179, 179, 179);
@@ -79,7 +25,7 @@ div{
   .output {
     border: 2px solid #ccc;
     border-radius: 0.75rem;
-    height: 120px;
+    height: 80px;
     margin-bottom: 20px;
     margin-top: 20px;
     display: flex;
@@ -88,16 +34,9 @@ div{
     flex-direction: column;
     padding-right: 20px;
   }
-
-.calculation{
-    margin-bottom: 0;
-    margin-top: 5px;
-    font-size: 400%;
-}
   
   .result {
     font-size: 50px;
-    z-index: 1;
   }
   
   .buttons {
