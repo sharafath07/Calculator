@@ -29,7 +29,7 @@ Check out the live version of the calculator [here](https://sharafath07.github.i
 
 ## Screenshots
 
-![Calculator Screenshot](https://via.placeholder.com/800x400.png?text=Calculator+App+Screenshot)
+![Calculator Screenshot](Screenshot.png)
 
 ## Installation
 
